@@ -1,6 +1,6 @@
 import { HttpException, HttpStatus, Injectable } from "@nestjs/common";
 import { JwtService } from "@nestjs/jwt";
-import { UsuarioService } from "src/usuario/service/usuario.service";
+import { UsuarioService } from "../../usuario/service/usuario.service";
 import { Bcrypt } from "../bcrypt/bcrypt";
 
 @Injectable()
