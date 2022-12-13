@@ -9,7 +9,7 @@ import { UsuarioService } from "./service/usuario.service";
     imports: [TypeOrmModule.forFeature([Usuario])],
     providers: [UsuarioService, Bcrypt],
     controllers: [UsuarioController],
-    exports: [TypeOrmModule]
+    exports: [UsuarioService]
     
 })
 export class UsuarioModule { }

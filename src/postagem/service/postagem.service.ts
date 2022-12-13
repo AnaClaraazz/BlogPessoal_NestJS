@@ -4,8 +4,8 @@ import { DeleteResult, ILike, Repository } from "typeorm";
 import { Postagem } from "../entitys/postagem.entitys";
 
 @Injectable()
-export class PostagemSerivice {
-    
+export class PostagemService {
+    findByTitulo: any;
     constructor(
         @InjectRepository(Postagem)
         private PostagemRepository: Repository<Postagem>
