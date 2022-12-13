@@ -5,9 +5,6 @@ import { ApiExcludeEndpoint } from '@nestjs/swagger';
 
 @Controller()
 export class AppController {
-  getBlog(): any {
-    throw new Error('Method not implemented.');
-  }
   constructor() {}
 
   @ApiExcludeEndpoint()
